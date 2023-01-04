@@ -41,4 +41,5 @@ class Clipboard():
                 print(a.name()," = ",a.value())
 
 c = Clipboard()
-c.parseXML()
+#c.getCurrentData()
+#c.parseXML()         # <-- Works only after copy objects
